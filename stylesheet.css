@@ -1,7 +1,26 @@
 body {
   background-color: lightgreen;
 }
-h1 {
+.mainheading {
   text-align: center;
   color: red;
+  font-family:monospace;
+  font-size: 400%;
+}
+p.textp {
+  text-align: center;
+  font-family: sans-serif;
+  font-variant: normal;
+}
+.subhead {
+  text-align: center;
+  font-family:  sans-serif;
+  font-size: 250%;
+  padding-top: 70px;
+}
+
+.foot {
+  text-align: center;
+  font-size: 75%;
+  font-variant:small-caps;
 }
