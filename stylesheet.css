@@ -24,3 +24,7 @@ p.textp {
   font-size: 75%;
   font-variant:small-caps;
 }
+video {
+  display: block;
+  margin: 0 auto;
+}
