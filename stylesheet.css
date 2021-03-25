@@ -1,3 +1,10 @@
+/* fonts */
+@font-face {
+  font-family: openSans;
+  src: url(OpenSans-Regular.ttf);
+}
+
+
 body {
   background-color: seashell;
 }
@@ -9,7 +16,7 @@ body {
 }
 p.textp {
   text-align: center;
-  font-family: sans-serif;
+  font-family: openSans;
   font-variant: normal;
 }
 .subhead {
@@ -33,6 +40,7 @@ video {
 .topnav {
   background-color: black;
   overflow: hidden;
+
 }
 
 .topnav a {
