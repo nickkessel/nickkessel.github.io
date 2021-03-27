@@ -1,7 +1,14 @@
 /* fonts */
 @font-face {
   font-family: openSans;
-  src: url(OpenSans-Regular.ttf);
+  src: url(Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+
+font-family: display;
+src: url(Fonts/Fascinate-Regular.ttf);
+
 }
 
 
@@ -11,7 +18,7 @@ body {
 .mainheading {
   text-align: center;
   color: red;
-  font-family:monospace;
+  font-family:display;
   font-size: 400%;
 }
 p.textp {
@@ -23,24 +30,25 @@ p.textp {
   text-align: center;
   font-family:  sans-serif;
   font-size: 250%;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .foot {
   text-align: center;
   font-size: 75%;
-  font-variant:small-caps;
-  padding-top: 30px;
+  font-family: display;
+  padding-top: 150px;
 }
 video {
   display: block;
   margin: 0 auto;
 }
+
+
 /* top navigation bar*/
 .topnav {
   background-color: black;
   overflow: hidden;
-
 }
 
 .topnav a {
@@ -52,13 +60,10 @@ video {
   font-size: 17px;
   font-family: monospace;
 
+
 }
 
 .topnav a:hover {
   background-color: white;
   color:black;
-}
-
-.topnav a:active {
-  background-color: blue;
 }
