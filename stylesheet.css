@@ -33,11 +33,18 @@ p.textp {
   padding-top: 30px;
 }
 
-.foot {
+.foottext {
   text-align: center;
   font-size: 75%;
   font-family: display;
   padding-top: 150px;
+}
+
+.footlink {
+  text-align: center;
+  font-size: 100%;
+  font-family: sans-serif;
+  font-variant: small-caps;
 }
 video {
   display: block;
