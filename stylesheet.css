@@ -22,9 +22,9 @@ body {
 }
 .mainheading {
   text-align: center;
-  color: red;
-  font-family:futuristic;
-  font-size: 400%;
+  color: salmon;
+  font-family:openSans;
+  font-size: 150%;
 }
 p.textp {
   text-align: center;
